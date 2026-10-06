@@ -1,0 +1,18 @@
+{
+  // Deploys the built Flutter web bundle to the existing Worker, keeping the
+  // same URL: https://stable-money-prototype.himanshu-etc1.workers.dev
+  //
+  //   flutter build web --release
+  //   npx wrangler deploy
+  //
+  // There is no server-side code here, only static files, so no "main" entry
+  // is needed. Wrangler uploads only the files whose contents changed.
+  "name": "stable-money-prototype",
+  "compatibility_date": "2026-09-07",
+  "assets": {
+    "directory": "./build/web",
+    // Flutter web routes in the browser, so any unknown path has to fall back
+    // to index.html rather than returning a 404.
+    "not_found_handling": "single-page-application"
+  }
+}
