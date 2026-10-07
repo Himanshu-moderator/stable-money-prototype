@@ -20,7 +20,7 @@
   <img src="docs/screens/book_fd.png" width="19%" alt="Book an FD" />
 </p>
 
-> **Not affiliated with Stable Money.** This is an independent learning project for a product management course. The UI imitates the public app so the proposed features can be judged in a realistic setting. All data is made up, nothing is real, and nobody can invest through it.
+> **Note:** This is a prototype, not the real Stable Money app, and it is not affiliated with or endorsed by Stable Money. It uses sample data only, and no real investments can be made through it.
 
 ## The problem
 

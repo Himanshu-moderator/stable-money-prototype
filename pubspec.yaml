@@ -1,5 +1,5 @@
 name: stable_money_clone
-description: "Stable Money retention prototype: a product management capstone (not affiliated with Stable Money)."
+description: "Stable Money retention prototype (not affiliated with Stable Money)."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
